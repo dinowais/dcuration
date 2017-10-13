@@ -6,6 +6,7 @@ data = [
         'country': 'China',
         'state': 'Hangzhou /Zhejiang',
         'therapeutic_area': 'Bacterial Infections',
+        'score': '90.5',
         'potential_matches': [
             {
                 'first_name': 'John;1.0',
@@ -40,6 +41,7 @@ data = [
         'country': 'United States',
         'state': 'Vero Beach',
         'therapeutic_area': 'Nervous System Diseases',
+        'score': '80.5',
         'potential_matches': [
             {
                 'first_name': 'Edward;1.0',
@@ -74,6 +76,7 @@ data = [
         'country': 'United States',
         'state': 'Richmond',
         'therapeutic_area': 'Neoplasms',
+        'score': '85.5',
         'potential_matches': [{
             'first_name': 'James;0.1',
             'last_name': 'Mcfarlane;1.0',
@@ -97,6 +100,7 @@ data = [
         'email': 'daniel@gmail.com',
         'country': 'United States',
         'state': 'Birmingham',
+        'score': '89.5',
         'therapeutic_area': 'Pathological Conditions ',
         'potential_matches': [
             {'first_name': 'Daniel;1.0',
@@ -114,6 +118,7 @@ data = [
         'country': 'Australia',
         'state': 'Austin',
         'therapeutic_area': 'Digestive System Diseases',
+        'score': '78.5',
         'potential_matches': [{
             'first_name': 'Anthony;0.8',
             'last_name': 'Davidson;1.0',
@@ -138,6 +143,7 @@ data = [
         'country': 'Australia',
         'state': 'Princeton',
         'therapeutic_area': 'Immune System Diseases',
+        'score': '67.5',
         'potential_matches': [{
             'first_name': 'Creg;0.8',
             'last_name': 'Rains;0.5',
@@ -154,6 +160,7 @@ data = [
         'country': 'Paris',
         'state': 'Kansas City',
         'therapeutic_area': 'Respiratory Tract Diseases',
+        'score': '95.5',
         'potential_matches': [{
             'first_name': 'Amit;0.7',
             'last_name': 'Mishra;0.1',
