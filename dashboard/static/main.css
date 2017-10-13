@@ -1,0 +1,316 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#integration-list {
+    /*font-family: 'Open Sans', sans-serif;*/
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+}
+
+#integration-list ul {
+    padding: 0;
+    margin: 20px 0;
+    color: #555;
+}
+
+#integration-list ul > li {
+    list-style: none;
+    /*border-top: 1px solid #ddd;*/
+    display: block;
+    padding: 15px;
+    overflow: hidden;
+}
+
+#integration-list ul:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+.expand {
+    display: block;
+    text-decoration: none;
+    color: #555;
+    cursor: pointer;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+span {
+    font-size: 12.5px;
+}
+
+#left, #right {
+    display: table;
+}
+
+#sup {
+    display: table-cell;
+    vertical-align: middle;
+    width: 80%;
+}
+
+.detail a {
+    text-decoration: none;
+    color: #C0392B;
+    border: 1px solid #C0392B;
+    padding: 6px 10px 5px;
+    font-size: 14px;
+}
+
+.detail {
+    margin: 10px 0 10px 0px;
+    display: none;
+    line-height: 22px;
+    height: 150px;
+}
+
+.detail span {
+    margin: 0;
+}
+
+/*.right-arrow {*/
+/*margin-top: 12px;*/
+/*margin-left: 20px;*/
+/*width: 10px;*/
+/*height: 100%;*/
+/*float: right;*/
+/*font-weight: bold;*/
+/*font-size: 20px;*/
+/*}*/
+.icon {
+    height: 75px;
+    width: 75px;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.london {
+    background: url("http://placehold.it/50x50") top left no-repeat;
+    background-size: cover;
+}
+
+.newyork {
+    background: url("http://placehold.it/50x50") top left no-repeat;
+    background-size: cover;
+}
+
+.paris {
+    background: url("http://placehold.it/50x50") top left no-repeat;
+    background-size: cover;
+}
+
+.existing_record {
+    /*background: #e5eaf0;*/
+}
+
+.expand {
+    /*background-color: #e9f8f1;*/
+}
+
+.expand p {
+    font-size: 12px;
+}
+
+.existing_record p {
+    font-size: 12px;
+}
+
+/*.data_list{*/
+/*background: #e9f8f1;*/
+/*padding: 0;*/
+/*}*/
+
+.stripped {
+
+}
+
+/*.data_list.stripped:hover {*/
+/*background-color: #e5eaf0 !important;*/
+/*}*/
+
+/*.data_list:hover {*/
+/*background: #656467;*/
+/*opacity: 1;*/
+/*color: white;*/
+/*}*/
+
+.data_list.stripped {
+    background-color: #ffffff;
+}
+
+.data_list {
+    background: #dddddd;
+    /*color: #333333;*/
+    /*opacity: .9;*/
+}
+
+/*.data_list.active {*/
+/*background: #656467;*/
+/*opacity: 1;*/
+/*color: white;*/
+/*}*/
+
+.inv_heading {
+    margin-left: 0px;
+}
+
+.merge_score {
+    /*margin-left: 23%*/
+}
+
+.inv_name {
+    padding: 0;
+}
+
+hr {
+    border-top: 2px solid rgba(247, 247, 247, 0.95);
+}
+
+.right-arrow {
+    position: absolute;
+    margin-left: 76%;
+    font-size: 24px;
+    margin-top: -1%;
+}
+
+.progress-bar {
+    background-color: darkgrey;
+    color: #333333;
+}
+
+li {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.btn-primary {
+    background-color: #6CA1D2;
+    border-color: #6CA1D2;
+}
+
+.btn-primary:hover {
+    background-color: #002D6A;
+    border-color: #002D6A;
+}
+
+.btn-success {
+    background-color: #6CA1D2;
+    border-color: #6CA1D2;
+}
+
+.btn-success:hover {
+    background-color: #002D6A;
+    border-color: #002D6A;
+}
+
+html {
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.table {
+    border: none;
+}
+
+.table-definition thead th:first-child {
+    pointer-events: none;
+    background: white;
+    border: none;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.page-item > * {
+    border: none;
+}
+
+.custom-checkbox {
+    min-height: 1rem;
+    padding-left: 0;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox .custom-control-indicator {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 10px;
+    background-color: #818181;
+    border-radius: 15px;
+    margin-right: 10px;
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease;
+    vertical-align: middle;
+    margin: 0 16px;
+    box-shadow: none;
+}
+
+.custom-checkbox .custom-control-indicator:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #f1f1f1;
+    border-radius: 21px;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+    left: -2px;
+    top: -4px;
+    -webkit-transition: left .3s ease, background .3s ease, box-shadow .1s ease;
+    transition: left .3s ease, background .3s ease, box-shadow .1s ease;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-indicator {
+    background-color: #555555;
+    background-image: none;
+    box-shadow: none !important;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-indicator:after {
+    background-color: #555555;
+    left: 15px;
+}
+
+.custom-checkbox .custom-control-input:focus ~ .custom-control-indicator {
+    box-shadow: none !important;
+}
+
+.progress_table {
+    width: 25px;
+    height: 30px;
+    position: relative;
+    float: right;
+}
+
+.check-icon {
+    font-size: 16px;
+}
+.table-bordered td, .table-bordered th{
+    border: 1px solid #bbbbbb !important;
+}
+.table.table-bordered thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #bbbbbb ;
+}
+
+.data_list.stripped{
+    border-left: 1px solid #bbbbbb;
+    border-right: 1px solid #bbbbbb;
+}
+.data_list.stripped hr {
+    border-top: 2px solid #bbbbbb;
+}
